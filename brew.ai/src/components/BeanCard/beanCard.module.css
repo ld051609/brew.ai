@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+.roast{
+    font-size: 15px;
+
+}
+/* .roastBox{
+    border: solid 2px black;
+    padding: 5px 0;
+
+    align-content: center;
+    background-color: rgb(235, 230, 250);
+    text-align: center;
+} */
+.readmoreBtn{
+    padding: 10px 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border: 2px solid;
+    background-color: rgb(235, 230, 250);
+    font-size: 15px;
+    align-self: center; /* Change to any value like flex-start, flex-end, etc. */
+    transition: 0.2s ease;
+
+}
+.readmoreBtn:hover{
+    text-decoration: underline;
+    background-color: rgb(212, 200, 247);
+
+}

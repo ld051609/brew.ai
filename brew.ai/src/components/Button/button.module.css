@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.btn_login,
+.btn_signup {
+  background-color: rgb(235, 216, 248); /* Opaque white background */
+  padding: 0 20px;
+  font-size: 18px;
+  color: rgb(79, 79, 79);
+  border-color: rgb(79, 79, 79);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  border-radius: 5%;
+  
+}
+
+.btn_login:hover,
+.btn_signup:hover {
+  background-color: rgba(235, 216, 248, 0.113); /* Transparent background on hover */
+    color: rgba(0, 0, 0, 0.929)
+}
+

@@ -1,0 +1,23 @@
+.navContainer{
+    display: flex;
+    gap: 100px;
+    margin-top: 15px;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 23px;
+    transition: 0.2s ease font-size;
+}
+.link:hover{
+    font-size: 25px;
+    color: rgba(152, 97, 163, 0.692);
+}
+.leftContainer{
+    flex: 1;
+
+}
+
+
+

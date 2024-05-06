@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.imgContainer {
+  flex: 1;
+}
+
+.img {
+  margin-left: -240px;
+}
+
+.break {
+  width: 80%;
+}
+
+.textContainer {
+  flex: 1.8;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin: 150px 0;
+}
+
+.productDetail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.name{
+    font-size: 50px;
+}
+.description {
+  font-size: 13px; 
+  max-width: 70%;
+  line-height: 20px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: beige;
+  padding: 10px 10px;
+  width: 120px;
+}
+.price:hover{
+    background-color: rgb(245, 238, 188);
+
+}
+.region{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+
+}
+.region h2{
+    align-self: center;
+}
+.region2{
+    font-weight: 100;
+    font-size: 13px;
+    align-self: center;
+    background-color: rgb(235, 245, 220);
+    padding: 10px 10px;
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5%;
+}
+.region2:hover{
+    background-color: rgb(210, 239, 168);
+
+}
+
+.list li {
+  list-style-type: circle;
+}
+.roast{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+.roastLevel{
+    display: flex;
+    gap: 15px;
+}
+.circle {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%;
+    border: solid 1.5px black;
+    /* background-color: black;  */
+}
+.regionAndRoast{
+    max-width: 65%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.flavor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.listFlavor{
+    display: flex;
+    justify-content: space-between;
+    max-width: 65%;
+    align-content: center;
+}
+.listFlavor li{
+    padding: 10px 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #f2e0e3; 
+
+}
+.listFlavor li:nth-child(odd) {
+    background-color: #f2e0e3; 
+}
+.listFlavor li:nth-child(odd):hover {
+    background-color: #eed3d7; 
+}
+  
+.listFlavor li:nth-child(even) {
+    background-color: #ccf0f6; 
+}
+.listFlavor li:nth-child(even):hover {
+    background-color: #bae7ef; 
+}
+.grind{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.grindOption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 65%;
+    align-content: center;
+
+
+}
+.grindOption li{
+    padding: 10px 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #e0e9fe ;
+}
+.grindOption li:hover{
+    background-color: rgb(207, 220, 250) ;
+}
