@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.textContainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* border: 1px solid; */
+    padding: 10px 10px;
+    background-color: rgb(251, 236, 221);
+}
+.readmoreBtn{
+    margin: 20px 0px;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 0.2px solid;
+    cursor: pointer;
+    text-decoration: solid;
+}
