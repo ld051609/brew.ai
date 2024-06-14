@@ -5,9 +5,6 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 Welcome to brew.ai - our coffee shop! This website allows users to browse various coffee ground bean products and obtain detailed information about each coffee type. Additionally, our site features an algorithm that helps customers determine the most suitable coffee ground bean based on their preferences, even if they are unsure of what they like.
@@ -57,8 +54,8 @@ npm run dev
 # Open http://localhost:3000 with your browser to see the result.
 ```
 ## Technologies used
-Frontend:
+1. Frontend:
 - Next.js
-- React,js
-Backend:
+- React.js
+2. Backend:
 - Flask
