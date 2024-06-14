@@ -2,8 +2,11 @@
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 2.5px dashed black;
+    border-radius: 10px;
+
 }
   
 .container h1 {

@@ -15,7 +15,8 @@ const CoffeeCard = ({coffee}) => {
                 src={coffee.image_url} 
                 className={styles.img} 
                 width={700} 
-                height={500}/>
+                height={500}
+                alt = ''/>
             </div>
     
             <div className={styles.textContainer}>
