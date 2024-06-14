@@ -3,12 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Scripts](#scripts)
-- [Environment Variables](#environment-variables)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -60,3 +55,10 @@ cd brew.ai/frontend
 npm run dev
 
 # Open http://localhost:3000 with your browser to see the result.
+```
+## Technologies used
+Frontend:
+- Next.js
+- React,js
+Backend:
+- Flask
